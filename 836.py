@@ -11,3 +11,10 @@ print()
 col2 = matrix[:, 1]
 print("(7) 2列目の要素:")
 print(col2)
+
+print()
+
+# (8) 3列目と4列目（インデックス2〜3）の要素を抜き出す
+cols3_4 = matrix[:, 2:4]
+print("(8) 3列目と4列目の要素:")
+print(cols3_4)
